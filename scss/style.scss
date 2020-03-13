@@ -74,7 +74,11 @@ main{
   grid-gap: 30px;
   grid-template-areas: 
   'bioimage bio bio'
-  'job1 job2 job3';
+  'job1 job2 job3'
+  'job4 job5 job6'
+  'job7 job8 job9'
+  ;
+  
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image{
@@ -98,6 +102,30 @@ main{
   }
   .job-3{
     grid-area: job3;
+  }
+  .job-4{
+    grid-area: job4;
+    border-bottom: green 5px solid !important;
+  }
+  .job-5{
+    grid-area: job5;
+    border-bottom: green 5px solid !important;
+  }
+  .job-6{
+    grid-area: job6;
+    border-bottom: green 5px solid !important;
+  }
+  .job-7{
+    grid-area: job7;
+    border-bottom: green 5px solid !important;
+  }
+  .job-8{
+    grid-area: job8;
+    border-bottom: green 5px solid !important;
+  }
+  .job-9{
+    grid-area: job9;
+    border-bottom: green 5px solid !important;
   }
   .job{
     background: lighten($primary-color, 5);
