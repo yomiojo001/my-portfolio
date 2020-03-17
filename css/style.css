@@ -82,16 +82,16 @@
       color: #d1be13; }
 
 .nav-item:nth-child(1) {
-  transition-delay: 0.1s; }
-
-.nav-item:nth-child(2) {
-  transition-delay: 0.2s; }
-
-.nav-item:nth-child(3) {
   transition-delay: 0.3s; }
 
+.nav-item:nth-child(2) {
+  transition-delay: 0.6s; }
+
+.nav-item:nth-child(3) {
+  transition-delay: 0.9s; }
+
 .nav-item:nth-child(4) {
-  transition-delay: 0.4s; }
+  transition-delay: 1.2s; }
 
 * {
   box-sizing: border-box; }
@@ -154,6 +154,9 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
+.about .role-heading {
+  font-family: 'Shadows Into Light', cursive; }
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -168,7 +171,8 @@ main {
     border: #d1be13 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    font-family: cursive; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -176,14 +180,11 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job-4 {
-    grid-area: job4;
-    border-bottom: green 5px solid !important; }
+    grid-area: job4; }
   .about-info .job-5 {
-    grid-area: job5;
-    border-bottom: green 5px solid !important; }
+    grid-area: job5; }
   .about-info .job-6 {
-    grid-area: job6;
-    border-bottom: green 5px solid !important; }
+    grid-area: job6; }
   .about-info .job-7 {
     grid-area: job7;
     border-bottom: green 5px solid !important; }
@@ -197,7 +198,9 @@ main {
     background: #515151;
     padding: 1.5rem;
     border-bottom: #d1be13 5px solid;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 1.3rem; }
 
 .projects {
   display: grid;
