@@ -195,12 +195,13 @@ main {
     grid-area: job9;
     border-bottom: green 5px solid !important; }
   .about-info .job {
-    background: #515151;
+    background: #fff;
     padding: 1.5rem;
     border-bottom: #d1be13 5px solid;
     text-align: center;
     font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    color: #000; }
 
 .projects {
   display: grid;
